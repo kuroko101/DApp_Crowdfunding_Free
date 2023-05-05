@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Crowdfunding Dapp</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+  <script src="app.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1 id="title">Crowdfunding Dapp</h1>
+    <div id="fundingGoal">Funding goal: <span id="goal"></span> ETH</div>
+    <div id="progressBarContainer">
+      <div id="progressBar"></div>
+    </div>
+    <div id="progressText"><span id="amountRaised"></span> ETH raised out of <span id="goalAmount"></span> ETH</div>
+    <form id="contributionForm">
+      <label for="contributionAmount">Contribute:</label>
+      <input type="number" step="0.01" min="0" id="contributionAmount">
+      <button type="button" id="contributeButton">Contribute</button>
+    </form>
+    <div id="projectStats">
+      <div class="stat">Total contributors: <span class="stat-value" id="totalContributors"></span></div>
+      <div class="stat">Minimum contribution: <span class="stat-value" id="minContribution"></span> ETH</div>
+      <div class="stat">Deadline: <span class="stat-value" id="deadline"></span></div>
+    </div>
+  </div>
+</body>
+</html

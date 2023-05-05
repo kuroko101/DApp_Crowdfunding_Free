@@ -1,0 +1,91 @@
+/* Main container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+  }
+  
+  /* Title */
+  #title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #333;
+  }
+  
+  /* Funding goal and progress bar */
+  #fundingGoal {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  #progressBarContainer {
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  #progressBar {
+    height: 100%;
+    background-color: #4caf50;
+    border-radius: 10px;
+  }
+  
+  #progressText {
+    font-size: 1.2rem;
+    text-align: right;
+    margin-bottom: 10px;
+  }
+  
+  /* Contribution form */
+  #contributionForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  #contributionAmount {
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+  }
+  
+  #contributeButton {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #contributeButton:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Project stats */
+  #projectStats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .stat {
+    font-size: 1.2rem;
+    color: #777;
+  }
+  
+  .stat-value {
+    font-weight: bold;
+    color: #333;
+  }
